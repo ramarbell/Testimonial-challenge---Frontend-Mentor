@@ -7,6 +7,10 @@
 body {
   background-color: hsl(210, 46%, 95%);
   font-family: "Barlow Semi Condensed", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #container {
@@ -82,7 +86,7 @@ body {
   z-index: -1;
 }
 
-h4 {
+h1 {
   margin-bottom: 20px;
   font-size: 1.2rem;
   font-weight: 600;
